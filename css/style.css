@@ -1,0 +1,139 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444444;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1160px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* HEADER */
+
+.site-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.site-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.site-logo-img {
+  margin-right: 16px;
+}
+
+.site-logo-text {
+  font-weight: 600;
+  font-size: 24px;
+  color: #222222;
+}
+
+.site-logo-text:hover {
+  color: #de2e54;
+}
+
+.site-logo:active {
+  opacity: 0.8;
+}
+
+.sitenav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.sitenav-link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.sitenav-link:hover {
+  color: #de2e54;
+}
+
+.sitenav-link:active {
+  opacity: 0.8;
+}
+
+/* MAIN BUTTON */
+.main-button {
+  text-decoration: none;
+  background-color: #de2e54;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px 24px;
+  letter-spacing: 2px;
+}
+
+.main-button:hover {
+  color: #de2e54;
+  background-color: #fff;
+}
+
+/* FOOTER */
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222222;
+}
+
+.site-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-footer-logo-text {
+  color: #fff;
+}
+
+.site-footer-logo-text:active {
+  color: #fff;
+}
+
+.sitenav-footer-link {
+  color: #fff;
+}
+
+.sitenav-footer-link:active {
+  color: #fff;
+  opacity: 0.8;
+}
